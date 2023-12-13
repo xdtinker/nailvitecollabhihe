@@ -1,0 +1,20 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .wide-md {
+        @apply max-w-md;
+    }
+
+    .wide-lg {
+        @apply max-w-lg;
+    }
+
+    .ultra-wide {
+        @apply max-w-screen-xl;
+    }
+}
